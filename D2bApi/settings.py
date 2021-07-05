@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg',
-    'authentification',
+    'authentication',
     'contacts',
     'corsheaders'
 ]
@@ -59,7 +59,7 @@ SWAGGER_SETTINGS = {
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'authentification.backends.JWTAuthentication',
+        'authentication.backends.JWTAuthentication',
     )
 }
 
