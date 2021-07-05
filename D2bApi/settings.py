@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'authentification',
     'contacts',
-    'django-cors-headers'
+    'corsheaders'
 ]
 
 SWAGGER_SETTINGS = {
